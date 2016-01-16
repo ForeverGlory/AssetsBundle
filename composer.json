@@ -1,9 +1,9 @@
 {
-    "name": "foreverglory/theme-bundle",
+    "name": "foreverglory/assets-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony ThemeBundle",
-    "keywords": ["symfony", "bundle", "theme"],
-    "homepage": "http://github.foreverglory.me",
+    "description": "Symfony AssetsBundle",
+    "keywords": ["symfony", "bundle", "assets"],
+    "homepage": "http://foreverglory.me",
     "license": "MIT",
     "authors": [
         {
@@ -17,12 +17,8 @@
     },
     "require-dev": {
     },
-    "suggests": {
-        "suncat/mobile-detect-bundle": "~0.10"
-    },
     "autoload": {
-        "psr-0": {"Glory\\ThemeBundle": ""}
+        "psr-0": {"Glory\\AssetsBundle": ""}
     },
-    "minimum-stability": "dev",
-    "target-dir": "Glory/ThemeBundle"
+    "target-dir": "Glory/AssetsBundle"
 }
