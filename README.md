@@ -25,7 +25,7 @@ public function registerBundles()
 {
     return array(
         // ...
-        new Glory\AssetsBundle\GloryAssetsBundle(),
+        new Glory\Bundle\AssetsBundle\GloryAssetsBundle(),
         // ...
     );
 }

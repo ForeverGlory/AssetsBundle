@@ -1,6 +1,6 @@
 <?php
 
-namespace Glory\AssetsBundle;
+namespace Glory\Bundle\AssetsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
