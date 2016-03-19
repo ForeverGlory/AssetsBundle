@@ -12,13 +12,12 @@
             "homepage": "http://foreverglory.me"
         }
     ],
+    "autoload": {
+        "psr-0": {"Glory\\Bundle\\AssetsBundle": ""}
+    },
     "require": {
         "symfony/symfony": "~2.3"
     },
     "require-dev": {
-    },
-    "autoload": {
-        "psr-0": {"Glory\\AssetsBundle": ""}
-    },
-    "target-dir": "Glory/AssetsBundle"
+    }
 }

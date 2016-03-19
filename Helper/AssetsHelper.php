@@ -1,6 +1,6 @@
 <?php
 
-namespace Glory\AssetsBundle\Helper;
+namespace Glory\Bundle\AssetsBundle\Helper;
 
 use Symfony\Bundle\FrameworkBundle\Templating\Helper\AssetsHelper as BaseAssetsHelper;
 

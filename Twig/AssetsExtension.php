@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace Glory\AssetsBundle\Twig;
+namespace Glory\Bundle\AssetsBundle\Twig;
 
 use Symfony\Bridge\Twig\Extension\AssetExtension;
 use Symfony\Component\DependencyInjection\ContainerInterface;

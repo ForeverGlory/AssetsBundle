@@ -1,7 +1,7 @@
 services:
 #    glory_assets.twig.assetsextension:
     twig.extension.assets:
-        class: Glory\AssetsBundle\Twig\AssetsExtension
+        class: Glory\Bundle\AssetsBundle\Twig\AssetsExtension
         arguments: [@service_container, @assets.packages, @twig.extension.httpfoundation]
         tag:
             - { name: twig.extension }
