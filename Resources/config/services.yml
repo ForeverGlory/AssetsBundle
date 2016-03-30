@@ -3,7 +3,7 @@ services:
     twig.extension.assets:
         class: Glory\Bundle\AssetsBundle\Twig\AssetsExtension
         arguments: [@service_container, @assets.packages, @twig.extension.httpfoundation]
-        tag:
+        tags:
             - { name: twig.extension }
 #    twig.extension.assets:
 #        alias: glory_assets.twig.assetsextension
